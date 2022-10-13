@@ -1,8 +1,14 @@
+import java.util.*;
+
 public class QuotientRemainder {
 
   public static void main(String[] args) {
 
-    int dividend = 25, divisor = 4;
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter dividend: ");
+    int dividend = sc.nextInt();
+    System.out.print("Enter divisor: ");
+    int divisor = sc.nextInt();
 
     int quotient = dividend / divisor;
     int remainder = dividend % divisor;
