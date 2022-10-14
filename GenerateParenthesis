@@ -1,0 +1,44 @@
+
+// Driver code
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number: "); // enter input in range 1 to 8
+        int input = sc.nextInt();
+        Solution obj = new Solution();
+        ArrayList<String> ans = obj.generateParenthesis(input);
+        System.out.print(ans);
+    }
+}
+// if open less than n add open
+// if closed less than open add closed
+// if open equals closed add string and return 
+class Solution {
+    ArrayList<String> al;
+    
+    public void recur(int n, int open, int closed, StringBuilder s){
+        if(open == n && closed == n){
+            String ans = s.toString();
+            al.add(ans);
+            return;
+        }
+        if(open < n){
+            s.append('(');
+            recur(n,open+1,closed,s);
+             s.delete(s.length() - 1, s.length());
+        }
+        if(closed < open){
+            s.append(')');
+            recur(n,open,closed+1,s);
+            s.delete(s.length() - 1, s.length());
+        }
+    }
+    public ArrayList<String> generateParenthesis(int n) {
+        al = new ArrayList<>();
+        StringBuilder s = new StringBuilder();
+        recur(n,0,0,s);
+        return al;
+    }
+}

@@ -1,0 +1,29 @@
+
+class Solution {
+    public boolean isPowerOfThree(int n) {
+        if(n>1 && n%3==0)
+            return isPowerOfThree(n/3);
+        if(n==1)
+            return true;
+        return false;
+    }
+}
+
+// Driver code
+import java.util.*;
+
+public class Main{
+ 
+   public static void main(String args[]){
+       Scanner sc = new Scanner(System.in);
+       System.out.print("Enter number: ");
+       int n = sc.nextInt();
+       Solution p = new Solution();
+       if(p.isPowerOfThree(n)){
+           System.out.print("YES");
+       }
+       else{
+           System.out.print("NO");
+       }
+   }
+}
