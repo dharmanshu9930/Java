@@ -1,0 +1,102 @@
+public class LinkedList
+{  
+static LinkedListNode head;   
+  
+static class LinkedListNode   
+{  
+int val;  
+  
+LinkedListNode next;  
+
+LinkedListNode(int d)  
+{  
+val = d;  
+next = null;  
+}  
+}  
+public LinkedListNode reverseList(LinkedListNode head, Stack<Integer> stk)  
+{  
+if (head == null || head.next == null)  
+{  
+return head;  
+}  
+
+while(head != null)  
+{  
+    stk.push(head.val);  
+    head = head.next;  
+}  
+
+LinkedListNode head1 = null;  
+  
+  
+while(stk.empty() == false)   
+{  
+if(head == null)  
+{  
+head1 = new LinkedListNode(stk.peek());  
+head = head1;  
+stk.pop();  
+}  
+else  
+{  
+
+head.next = new LinkedListNode(stk.peek());  
+stk.pop();  
+head = head.next;  
+}  
+  
+  
+}  
+  
+return head1;  
+}  
+
+public void printList(LinkedListNode h)  
+{  
+LinkedListNode t = h;  
+while (t != null)   
+{  
+System.out.print(t.val + " ");  
+ 
+t = t.next;  
+}  
+  
+System.out.println();  
+}  
+  
+  
+// main method  
+public static void main(String argvs[])  
+{  
+
+LinkedListStack listObj = new LinkedListStack();  
+ 
+listObj.head = new LinkedListNode(4);  
+
+listObj.head.next = new LinkedListNode(6);  
+ 
+listObj.head.next.next = new LinkedListNode(7);  
+
+listObj.head.next.next.next = new LinkedListNode(1);  
+
+listObj.head.next.next.next.next = new LinkedListNode(5);  
+
+listObj.head.next.next.next.next.next = new LinkedListNode(8);  
+
+listObj.head.next.next.next.next.next.next = new LinkedListNode(3);  
+ 
+listObj.head.next.next.next.next.next.next.next = new LinkedListNode(2);  
+
+Stack<Integer> stk = new Stack<Integer>();  
+  
+System.out.println("The Linked list before reversal is: ");  
+listObj.printList(head);  
+  
+head = listObj.reverseList(head, stk);  
+System.out.println(" ");  
+System.out.println("After reversal, the linked list is: ");  
+listObj.printList(head);  
+  
+}  
+}  
