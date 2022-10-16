@@ -1,0 +1,20 @@
+public class StringPalindrome {
+  public static void main(String[] args) {
+    boolean flag = javaPalindromeCheck("sitonapanotis");
+    System.out.println(flag);
+    flag = javaPalindromeCheck("nine");
+    System.out.println(flag);
+    flag = javaPalindromeCheck("amanaplanacanalpanama");
+    System.out.println(flag);
+
+  }
+  public static boolean javaPalindromeCheck(String s){
+    if(s.length() == 0 || s.length() == 1) {
+      return true;
+    }
+    if(s.charAt(0) == s.charAt(s.length()-1)) {
+      return palindromeCheck(s.substring(1, s.length()-1));
+    }
+    return false;
+  } 
+}
