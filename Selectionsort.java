@@ -1,40 +1,26 @@
-class SelectionSort
-{
-    void sort(int arr[])
-    {
-        int n = arr.length;
-
-
-        for (int i = 0; i < n-1; i++)
-        {
-
-            int min_idx = i;
-            for (int j = i+1; j < n; j++)
-                if (arr[j] < arr[min_idx])
-                    min_idx = j;
-
-            int temp = arr[min_idx];
-            arr[min_idx] = arr[i];
-            arr[i] = temp;
-        }
-    }
-
-
-    void printArray(int arr[])
-    {
-        int n = arr.length;
-        for (int i=0; i<n; ++i)
+//selectionsort algorithm find increasing order
+import java.util.*;
+public class selectionsort{
+    public static void printarray(int arr[]){
+        for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
+        }
         System.out.println();
     }
+    public static void main(String b[]){
+        int arr[]={7,8,2,3,1};
+        for(int i=0;i<arr.length-1;i++){
+            int smallest=i;
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[smallest]>arr[j]){
+                    smallest=j;
+                }
+            }
+            int temp=arr[smallest];//using swap condition
+            arr[smallest]=arr[i];
+            arr[i]=temp;
+        }
+        printarray(arr);
 
-    
-    public static void main(String args[])
-    {
-        SelectionSort ob = new SelectionSort();
-        int arr[] = {64,25,12,22,11};
-        ob.sort(arr);
-        System.out.println("Sorted array");
-        ob.printArray(arr);
     }
 }
