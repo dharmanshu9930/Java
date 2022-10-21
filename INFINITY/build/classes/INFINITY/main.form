@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[507, 500]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" pref="513" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" pref="500" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[507, 200]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="196" max="-2" attributes="0"/>
+                          <Component id="jPanel2" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="49" pref="49" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="email" min="-2" pref="168" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="address" min="-2" pref="168" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                                                  <Component id="middle" min="-2" pref="168" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="first" min="-2" pref="168" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                                          <Component id="last" min="-2" pref="168" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="city" alignment="1" min="-2" pref="168" max="-2" attributes="0"/>
+                                  <Component id="DOB" alignment="1" min="-2" pref="168" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton1" alignment="0" min="-2" pref="97" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="65" pref="65" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jButton2" min="-2" pref="99" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="8" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="first" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="middle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="last" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="address" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="city" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="DOB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="email" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jButton1" pref="34" max="32767" attributes="0"/>
+                      <Component id="jButton2" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="29" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="First name :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Middle name :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Last name :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Address :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="City :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Date of Birth :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Email"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Gender"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="first">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstActionPerformed"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="firstKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="middle">
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt V h d   cxsparse        conectix        r e l a t i v e _ p a t h       $SDI0001                ÿ                                                                                                                                 €Ààðøüþÿ                                                                                                                                       ÿÿ?        €@ nòšrú…õC¸òEtëÁU#†ÛAƒ—¥ÔâîØ;5vI‰`¸A«ÆƒÍ…éÖRžõ›sdB¯tî¬\ \ U W F S W A P . S Y S        çÀ  çÀ çÀ çÀ  €- Àÿÿÿÿÿÿÿÿ        j a     \ j p n _ b o o t . t t f   k o         \ k o r _ b o o t . t t f       z h - C N       z h - C H S     z h - H a n s   \ c h s _ b o o t . t t f       z h - T W       z h - C H T     z h - H K       z h - H a n t   \ c h t _ b o o t . t t f       \ w g l 4 _ b o o t . t t f     F o r c e   v i d e o   m o d e   t o   1 0 2 4 x 7 6 8   v i a   B C D . 
+     F o r c e   v i d e o   m o d e   t o   8 0 0 x 6 0 0   v i a   B C D . 
+       F o r c e   v i d e o   m o d e   t o   1 0 2 4 x 6 0 0   v i a   B C D . 
+     \ E F I \ M i c r o s o f t \ B o o t \ F o n t s   [  ;   H   [2J[1;1H  [K [0m[  ;1m m      €%      K      á      Â (   ,   *   .   )   -   +   /      "       $      #   !   %                   F i r m w a r e   r e t u r n e d   a n   i n v a l i d   c o l o r   d e p t h   ( % d )  
+   N U L L         8    ˆ‚    ‚    X€    ð    È€    ø‚    ¨            R D     e x f a t       % l s % l s     % l s \ % l s   \ $ U P C A S E         f a s t f a t   { % 0 8 x - % 0 8 x - % 0 8 x - % 0 8 x - % 0 8 x }     c d f s         C D 0 0 1       E L   T O R I T O   S P E C I F I C A T I O N   C D R O M       W o f C o m p r e s s e d D a t a       n t f s                 N T F S :   U n a l i g n e d   f i l e   a t t r i b u t e   h e a d e r ,   H e a d e r = 0 x % 0 8 p ,   F R S = 0 x % 0 8 p 
+               N T F S :   A t t r i b u t e   t y p e   n o t   c o n t a i n e d   i n   f i l e   r e c o r d   s e g m e n t   ( 0 x % 0 8 p ) ! 
+         N T F S :   A t t r i b u t e   h e a d e r   n o t   c o n t a i n e d   w i t h i n   f i l e   r e c o r d   s e g m e n t ,   H e a d e r = 0 x % 0 8 p ,   F R S = 0 x % 0 8 p 
+          ¬Ã    " $     °Ã    v m b f s       ÃÁvÃvÒÒH©ÀGH,`u d f s                 * * *   I n t e g r i t y   v a l i d a t i o n   f a i l e d   f o r   b l o c k   % u .  
+   W I M H .       \ S y s t e m   V o l u m e   I n f o r m a t i o n     % s \ % s % 0 1 6 I 6 4 X             ÀÉ    , .     ØÉ     @ƒ‘ÉÐ        C I \ S c e n a r i o s \ 1 2 8         C I \ S c e n a r i o s \ 1 2   C I \ S c e n a r i o s \ 1 2 9         C I \ S c e n a r i o s \ 1 3 0         C I \ S c e n a r i o s \ 1 3 1         C I \ S c e n a r i o s \ 1 3 2         C I \ S c e n a r i o s \ 1 3 4         C I \ S c e n a r i o s \ 1 3 6         C I \ S c e n a r i o s \ 1 3 7         C I \ S c e n a r i o s \ 1 3 3         C I \ S c e n a r i o s \ 1 3 8         C I \ S c e n a r i o s \ 1 3 9         P r o d u c t i o n S i g n e r s       T e s t S i g n e r s   T e s t s i g n i n g S i g n e r s     H a s h         C I \ S i g n e r s     C o u n t       K n o w n R o o t       T B S   E K U s         P l a t f o r m         D i s a b l e L i f e t i m e S i g n i n g     .EFI    1.3.6.1.4.1.311.10.3.6  
+       T E S T D I S A B L E F L I G H T       . c a t         1.3.6.1.4.1.311.61.4.1  1.3.6.1.4.1.311.61.5.1  1.3.6.1.5.5.7.3.3       * * *   W i n d o w s   i s   u n a b l e   t o   v e r i f y   t h e   s i g n a t u r e   o f 
+         t h e   f i l e   % s .     I t   w i l l   b e   a l l o w e d   t o   l o a d 
+         b e c a u s e   t h e   b o o t   d e b u g g e r   i s   e n a b l e d . 
+                 * * *   C e r t i f i c a t e   o f   t h e   f i l e   % s   h a s   e x p i r e d . 
+         I t   w i l l   b e   a l l o w e d   t o   l o a d   b e c a u s e   t h e 
+         b o o t   d e b u g g e r   i s   e n a b l e d . 
+       1.3.6.1.4.1.311.10.3.5  1.3.6.1.4.1.311.10.3.39 1.3.6.1.4.1.311.10.3.20 Embedded        Catalog .rsrc   f r - c a       f r - f r       e s - m x       e s - e s       z h - h k       z h - t w       V S _ V E R S I O N _ I N F O   S t r i n g F i l e I n f o     O r i g i n a l F i l e n a m e         M U I   e n - U S       % s \ % s \ % s . M U I                 M U I :   % s   c h e c k s u m   d o e s   n o t   m a t c h   p r i m a r y   f i l e   c h e c k s u m 
+     M A X M E M =   A V O I D L O W M E M O R Y =   T I M E O U T =         K E R N E L =   H A L =         N O E X E C U T E = O P T I N   N O E X E C U T E = O P T O U T         N O E X E C U T E = A L W A Y S O N     N O E X E C U T E = A L W A Y S O F F   N O E X E C U T E       E X E C U T E   N O P A E       P A E   N U M L O C K   N O N U M L O C K       N O D E B U G   D E B U G       B O O T D E B U G       D E B U G P O R T       C O M 1         C O M 2         C O M 3         C O M 4         1 3 9 4         U S B   N E T   H O S T _ P O R T =     H O S T _ I P =         H O S T I P V 6 =       E N C R Y P T I O N _ K E Y =   L O C A L       B A U D R A T E         C H A N N E L =         T A R G E T N A M E =   R E D I R E C T =       L O G C O N T R O L =   R E D I R E C T B A U D R A T E =       3 G B   U S E R V A =   3 0 7 2         D I S A B L E _ I N T E G R I T Y _ C H E C K S         N O I N T E G R I T Y C H E C K S       D I S A B L E E L A M D R I V E R S     T E S T S I G N I N G           C O N F I G A C C E S S P O L I C Y = D I S A L L O W M M C O N F I G   C O N F I G A C C E S S P O L I C Y = D E F A U L T     M S I P O L I C Y = D E F A U L T       M S I P O L I C Y = F O R C E D I S A B L E     P C I E X P R E S S P O L I C Y = D E F A U L T         P C I E X P R E S S P O L I C Y = F O R C E D I S A B L E       G R A P H I C S R E S O L U T I O N = 1 0 2 4 X 7 6 
