@@ -1,24 +1,52 @@
+// Java program to determine whether the number is
+// Armstrong number or not
 public class Armstrong {
+	/* Function to calculate x raised to the
+	power y */
+	int power(int x, long y)
+	{
+		if (y == 0)
+			return 1;
+		if (y % 2 == 0)
+			return power(x, y / 2) * power(x, y / 2);
+		return x * power(x, y / 2) * power(x, y / 2);
+	}
 
-    public static void main(String[] args) {
+	/* Function to calculate order of the number */
+	int order(int x)
+	{
+		int n = 0;
+		while (x != 0) {
+			n++;
+			x = x / 10;
+		}
+		return n;
+	}
 
-        int number = 1634, originalNumber, remainder, result = 0, n = 0;
+	// Function to check whether the given number is
+	// Armstrong number or not
+	boolean isArmstrong(int x)
+	{
+		// Calling order function
+		int n = order(x);
+		int temp = x, sum = 0;
+		while (temp != 0) {
+			int r = temp % 10;
+			sum = sum + power(r, n);
+			temp = temp / 10;
+		}
 
-        originalNumber = number;
+		// If satisfies Armstrong condition
+		return (sum == x);
+	}
 
-        for (;originalNumber != 0; originalNumber /= 10, ++n);
-
-        originalNumber = number;
-
-        for (;originalNumber != 0; originalNumber /= 10)
-        {
-            remainder = originalNumber % 10;
-            result += Math.pow(remainder, n);
-        }
-
-        if(result == number)
-            System.out.println(number + " is an Armstrong number.");
-        else
-            System.out.println(number + " is not an Armstrong number.");
-    }
+	// Driver Program
+	public static void main(String[] args)
+	{
+		Armstrong ob = new Armstrong();
+		int x = 153;
+		System.out.println(ob.isArmstrong(x));
+		x = 1253;
+		System.out.println(ob.isArmstrong(x));
+	}
 }
