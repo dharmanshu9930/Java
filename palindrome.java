@@ -1,25 +1,27 @@
-public class PalindromeNumber {
-    public static void main(String[] args) {
-        int number = 1221;
-        int reversedNum =0;
-        reversedNum =  getReversedNumber(number,reversedNum);
-
-        if(reversedNum == number){
-            System.out.println("It's a palindrome number");
-        }else{
-            System.out.println("It's not a palindrome number");
-        }
-
+import java.util.*;
+class palindrome
+{
+    public static void main()
+    {
+    Scanner sc= new Scanner(System.in);
+    System.out.println("enter a number");
+    int num= sc.nextInt();
+    int d,num1,rev;rev=0;
+    num1=num;
+    while(num!=0)
+    {
+        d=num%10;
+        rev=rev*10+d;
+        num=num/10;
     }
-
-    public static int getReversedNumber(int num, int rev){
-        int remainder;
-        if(num == 0){
-            return  rev;
-        }
-        remainder = num % 10;
-        rev = rev*10 + remainder;
-        num = num / 10;
-        return getReversedNumber(num,rev);
-    }
+    if(num1==rev)
+    System.out.println("the number is palindromic");
+    else
+    System.out.println("the number is not palindromic");
 }
+}
+
+
+    
+        
+    
