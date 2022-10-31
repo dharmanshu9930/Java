@@ -1,0 +1,28 @@
+import java.util.Arrays;
+ 
+class Main
+{
+    // merge arrays : intArray[start...mid] and intArray[mid+1...end]
+    public static void merge(int[] intArray, int[] temp, int start, int mid, int end)
+    {
+        int k = start, i = start, j = mid + 1;
+ 
+        // traverse through elements of left and right arrays
+        while (i &lt;= mid &amp;&amp; j &lt;= end) {
+            if (intArray[i] &lt; intArray[j]) {
+                temp[k++] = intArray[i++];
+            } else {
+                temp[k++] = intArray[j++];
+            }
+        }
+ 
+        // Copy remaining elements
+        while (i &lt;= mid) {
+            temp[k++] = intArray[i++];
+        }
+ 
+        // copy temp array back to the original array to reflect sorted order
+        for (i = start; i &lt;= end; i++) {
+            intArray[i] = temp[i];
+        }
+        }
